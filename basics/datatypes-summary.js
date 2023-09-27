@@ -20,3 +20,8 @@ const myFunc = function(){
 
 console.log(id);
 console.log(anotherId);
+console.log(typeof myFunc);
+
+// stack(primitive) Heap(non-primitive) 
+// primitive data types --> you get the copy of the value
+// non-primitive --> reference of the value
